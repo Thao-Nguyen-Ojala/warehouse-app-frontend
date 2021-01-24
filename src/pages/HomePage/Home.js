@@ -22,7 +22,7 @@ function Home(props) {
   const [productData, setProductData] = useState([]);
 
   const fetchedProductData = async (page) => {
-    const fetchedProductData = await fetchProductsData(page)
+    const fetchedProductData = await fetchProductsData(page) 
     setProductData(fetchedProductData)
   }
 
